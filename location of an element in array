@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int i,n,pos=-1;
+    int arr[5]={1,5,3,7,2};
+    printf("Enter the number you want= ");
+    scanf("%d",&n);
+    for(i=0;i<5;i++){
+       if( n==arr[i] ){
+           pos=i;
+           break;
+       }
+    }
+       if(pos==-1){
+           printf("The element is not found");
+       }
+       else{
+           printf("The location of an element is= %d",pos);
+       }
+    return 0;
+}
