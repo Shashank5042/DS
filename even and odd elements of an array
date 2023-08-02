@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int n,i,arr_even[100],arr_odd[100];
+    int n,i;
     printf("enter the size of of array:");
     scanf("%d",&n);
     int arr[n];
