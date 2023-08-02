@@ -5,7 +5,7 @@ int main()
     printf("Enter the number= ");
     scanf("%d",&num);
     tem=num;
-    while(num>1){
+    while(num>=1){
         rem=num % 10;
         result= result*10+rem;
         num= num / 10;
